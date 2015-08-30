@@ -26,10 +26,6 @@ Short: SWING
 
 Algorithm SHA256
 
-RPC Port: 26928
-
-P2P Port: 26929
-
 2.88 Minutes Per Block (500/day)
 
 Block Reward Schedule
@@ -37,3 +33,5 @@ Block Reward Schedule
 Please see the thread, website, or main.cpp 984 for reward information.
 
 See bitcointalk.org Swing thread for more info
+
+https://bitcointalk.org/index.php?topic=1164721.0
