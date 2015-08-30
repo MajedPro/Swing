@@ -28,6 +28,7 @@ namespace Checkpoints
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
       (  0,      hashGenesisBlock ) //Remember to do POS checkpoints in kernel.cpp too!
+	  (  3, uint256("0x00000000d2f2ed215b469c4f38da539e402889b50905e6bbe68508f89076fc63"))
     ;
 
     // TestNet has no checkpoints
