@@ -13,8 +13,14 @@ UNIX BUILD NOTES
 To Build
 --------
 
-cd src/
-make -f makefile.unix            # Headless Swing
+git clone https://github.com/SwingCoin/Swing
+cd Swing
+chmod 755 src/leveldb/build_detect_platform
+cd src/leveldb/
+make libleveldb.a
+make libmemenv.a
+cd ..
+make -f makefile.unix
 
 See readme-qt.rst for instructions on building Swing QT,
 the graphical Swing.
