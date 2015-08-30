@@ -1,0 +1,9 @@
+Building Swing
+
+See doc/readme-qt.rst for instructions on building Swing QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Swing.
+
+See doc/build-*.txt for instructions on building Swingd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Swing.
